@@ -1,0 +1,34 @@
+<!-- *********************************************************************** -->
+<!--                                                                         -->
+<!--                                                      :::      ::::::::  -->
+<!-- form.html                                          :+:      :+:    :+:  -->
+<!--                                                  +:+ +:+         +:+    -->
+<!-- By: youngpar <youngpar@student.42seoul.kr      +#+  +:+       +#+       -->
+<!--                                              +#+#+#+#+#+   +#+          -->
+<!-- Created: 2021/05/24 17:51:31 by youngpar          #+#    #+#            -->
+<!-- Updated: 2021/05/26 19:41:06 by youngpar         ###   ########.fr      -->
+<!--                                                                         -->
+<!-- *********************************************************************** -->
+
+<!doctype html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8" />
+		<title>적당히</title>
+		<script src="./popup.js"></script>
+	</head>
+	<body>
+		<form>
+			Firstname : <input type ="text" id="firstname"><br>
+			Name : <input type="text" id="name"><br>
+			Age : <input type="number" id="age"><br>
+			Phone : <input type="tel" id="phone"><br>
+			Email : <input type="email" id="email"><br>
+			Student at 42 ? : <input type="checkbox" id="student"><br>
+			Male <input type="radio" name="gender" id="gender_male">&nbsp;
+			Female <input type="radio" name="gender" id="gender_female">&nbsp;
+			Other <input type="radio" name="gender" id="gender_other"><br>
+			<button type="submit" onclick="displayFormContents()">Run that sexy Javascript !</button>
+		</form>
+	</body>
+</html>
